@@ -10,7 +10,7 @@ import MySQLStORM
 
 class Acronym: MySQLStORM {
     override func table() -> String {
-        return "kpr_test"
+        return "acronym"
     }
     
     var id: Int = 0

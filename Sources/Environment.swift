@@ -27,7 +27,7 @@ struct Environment {
     }
     
     static var serverPort : UInt16 {
-        return self.isXcode ? 8081 : 443
+        return self.isXcode ? 8081 : 80 // change to 443 once you have the cert prepared! 
     }
     
     static var documentRoot : String {

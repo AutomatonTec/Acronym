@@ -2,12 +2,9 @@
 //  main.swift
 //
 
-import Foundation
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
-import StORM
-import MySQLStORM
 
 Environment.initializeDatabaseConnector()
 
