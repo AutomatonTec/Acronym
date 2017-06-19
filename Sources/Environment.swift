@@ -10,7 +10,7 @@ import PerfectHTTPServer
 import PerfectNet
 import MySQLStORM
 
-struct Environment {
+class Environment {
     static var isXcode : Bool {
         #if Xcode
             return true
